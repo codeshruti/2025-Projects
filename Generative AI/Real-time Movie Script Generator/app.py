@@ -17,7 +17,7 @@ def generate_movie_scene(characters, setting, plot, genre):
     """
     
     try:
-        response = openai.ChatCompletion.create(
+        response = openai.chats.completion.create(
             model="gpt-4",
             messages=[
                 {"role": "system", "content": "You are an expert scriptwriter."},
