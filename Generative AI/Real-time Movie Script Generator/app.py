@@ -1,5 +1,6 @@
 import openai
 import os
+import pandas
 
 # add OpenAI key
 def generate_movie_scene(characters, setting, plot, genre):
