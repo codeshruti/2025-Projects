@@ -1,0 +1,22 @@
+transformers==4.34.0   # For pre-trained models like GPT
+torch==2.0.1          # PyTorch backend for transformers
+tensorflow==2.15.0    # Optional if using TensorFlow as the backend
+numpy==1.26.0         # For numerical operations
+pandas==2.2.0         # For data manipulation and storage
+flask==3.0.0          # Web framework for hosting the script generator
+flask-cors==4.0.0     # To handle Cross-Origin Resource Sharing (if hosting a web app)
+gunicorn==21.2.0      # WSGI server for deployment
+openai==0.28.1        # If using OpenAI's API for text generation
+dotenv==1.1.0         # To load environment variables securely
+jupyter==1.0.0        # For running and testing in notebooks
+sentencepiece==0.1.99 # Tokenizer support for models like T5 and GPT
+spacy==3.7.0          # For optional text processing tasks
+beautifulsoup4==4.13.0 # If any web-scraped content is being used as input
+selenium==4.12.0      # For automating input collection via browsers
+langchain==0.110.0    # For integrating advanced LLM workflows
+pyyaml==6.0           # For configuration management
+tqdm==4.65.0          # For progress bars
+scipy==1.11.3         # For advanced computations
+matplotlib==3.9.0     # For visualizing generated text analytics 
+plotly==5.17.0        # Interactive visualizations for script statistics
+requests==2.31.0      # For API calls or fetching external resources
